@@ -1,0 +1,14 @@
+1) 提交本地代码到远程github
+1. git init
+2. git remote add origin https://github.com/qiangyang/Github.git
+3. git pull https://github.com/qiangyang/Github.git
+4. git add . // git add filename
+5. git commit -m "提示"
+6. git push -u origin master
+
+2）添加、删除远程分支
+1. git push orighn branchname
+2. git push origin --delete brancename
+
+3)项目协作开发
+先将pull远程分支，然后将修改后的文件提交到远程分支，最后将大家一起做的其他分支合并到master分支。
